@@ -42,7 +42,6 @@ reset:
  lda #%00000001
  jsr lcd_instruction
  
- 
 
 temp_loop:
  stz message
@@ -360,7 +359,6 @@ i2c_start:
  ldy #DLCL
  sty DDRA
  rts
-
 
  .org($fffc)
  .word(reset)
