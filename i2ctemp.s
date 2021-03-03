@@ -180,13 +180,10 @@ print:
  inx
  jmp print
 
- 
 
 loop:
  jmp temp_loop ;take us to begining
  jmp loop ;-----------------------------
- 
-
 
 
 write_vector:
