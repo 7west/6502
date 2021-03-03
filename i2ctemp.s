@@ -361,6 +361,7 @@ i2c_start:
  sty DDRA
  rts
 
+
  .org($fffc)
  .word(reset)
  .word($0000)
